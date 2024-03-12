@@ -4,12 +4,7 @@ pipeline {
         pollSCM('* * * * *')
     }
     stages {
-        // Your pipeline stages here
+         sh echo "hello worls"
+             
     }
 }
-
-#!/bin/bash
-
-#name=jenkins
-#echo "hello $name world "
-#echo $name
