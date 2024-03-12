@@ -1,5 +1,6 @@
 #!/bin/bash
 
 name=jenkins
+echo "hhii"
 echo "hello $name world "
 echo $name
