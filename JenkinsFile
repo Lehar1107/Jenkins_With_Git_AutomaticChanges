@@ -1,5 +1,15 @@
+pipeline {
+    agent any
+    triggers {
+        pollSCM('* * * * *')
+    }
+    stages {
+        // Your pipeline stages here
+    }
+}
+
 #!/bin/bash
 
-name=jenkins
-echo "hello $name world "
-echo $name
+#name=jenkins
+#echo "hello $name world "
+#echo $name
