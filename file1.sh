@@ -1,5 +1,5 @@
 #!/bin/bash
 
-name=jenkins
+name=jenkinsNot
 echo "hello $name world "
 echo $name
